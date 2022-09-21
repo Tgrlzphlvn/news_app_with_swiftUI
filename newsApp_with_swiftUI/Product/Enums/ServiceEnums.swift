@@ -21,7 +21,7 @@ enum ServiceErrors : Error {
 }
 
 struct ServicePlugins {
-    static let headers = ["content-type": "application/json", "authorization" : "apikey 1EsSsgSZMq46ACLKsM4kSQ:4hdbRpcDUlbMSOizgexY86"]
+    static let headers = ["content-type": "application/json", "authorization" : "apikey https://collectapi.com/"]
     static let getMethod = "GET"
     static let url = "https://api.collectapi.com/news/getNews?country=tr&tag="
 }
